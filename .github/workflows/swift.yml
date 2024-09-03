@@ -30,7 +30,7 @@ jobs:
       run: |
         release_branch="release-$(date +'%Y%m%d')"
         git checkout -b $release_branch
-        git push
+        git push origin $release_branch
         
         
         
