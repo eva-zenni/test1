@@ -16,7 +16,7 @@ jobs:
     - name: Checkout develop branch
       uses: actions/checkout@v3
       with:
-        token: ${{ secrets.TOKEN }}
+        token: ${{ secrets.TOKEN1 }}
         ref: develop
 
     - name: Setup Git
